@@ -1,0 +1,21 @@
+BusID,From,To,Date,Time,Seats,Boarding,Drop,Amount
+211,Chennai,Mumbai,2025-08-25,18:00,40,Chennai Central,Mumbai Dadar,950
+212,Chennai,Mumbai,2025-08-25,21:30,38,Chennai Egmore,Mumbai CST,1025
+213,Delhi,Chennai,2025-08-25,06:00,50,Delhi ISBT,Chennai Central,2300
+214,Pune,Hyderabad,2025-08-25,07:15,45,Pune Station,Hyderabad MGBS,1150
+215,Mumbai,Kochi,2025-08-25,08:30,40,Mumbai CST,Kochi Vytilla,1999
+216,Ahmedabad,Chennai,2025-08-25,09:45,44,Ahmedabad Central,Chennai Central,1850
+217,Kochi,Bangalore,2025-08-25,11:00,42,Kochi Vytilla,Bangalore Majestic,1450
+218,Hyderabad,Delhi,2025-08-25,12:15,39,Hyderabad MGBS,Delhi ISBT,2100
+219,Jaipur,Mumbai,2025-08-25,13:30,48,Jaipur Sindhi Camp,Mumbai CST,1750
+220,Bangalore,Ahmedabad,2025-08-25,14:45,46,Bangalore Majestic,Ahmedabad Central,1625
+221,Hyderabad,Jaipur,2025-08-25,06:00,40,Hyderabad MGBS,Jaipur Sindhi Camp,1890
+222,Mumbai,Hyderabad,2025-08-25,07:30,42,Mumbai Dadar,Hyderabad MGBS,1350
+223,Delhi,Kochi,2025-08-25,09:00,38,Delhi ISBT,Kochi Vytilla,2450
+224,Ahmedabad,Pune,2025-08-25,10:15,45,Ahmedabad Central,Pune Station,950
+225,Jaipur,Bangalore,2025-08-25,11:30,39,Jaipur Sindhi Camp,Bangalore Majestic,1550
+226,Kochi,Mumbai,2025-08-25,13:00,44,Kochi Vytilla,Mumbai CST,1925
+227,Pune,Delhi,2025-08-25,14:45,48,Pune Station,Delhi ISBT,2050
+228,Bangalore,Hyderabad,2025-08-25,16:00,46,Bangalore Majestic,Hyderabad MGBS,1200
+229,Chennai,Ahmedabad,2025-08-25,17:30,40,Chennai Central,Ahmedabad Central,1700
+230,Hyderabad,Pune,2025-08-25,19:00,43,Hyderabad MGBS,Pune Station,1125
