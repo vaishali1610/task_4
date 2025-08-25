@@ -290,24 +290,43 @@ int main() {
     cout << "Red Bus\n";
     while (true) {
         cout << "\n1. Register\n2. Login\n3. Exit\nChoice: ";
-        int ch; cin >> ch;
+        int ch;
+        cin >> ch;
+        if (cin.fail()) {
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cout << "Invalid input! Please enter a number.\n";
+            continue;
+        }
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
- 
-        if (ch == 1) registerUser();
-        else if (ch == 2) {
+
+        if (ch == 1) {
+            registerUser();
+        } else if (ch == 2) {
             if (loginUser(loggedPhone)) {
                 int sub;
                 do {
                     cout << "\n1. Book Ticket\n2. Logout\nChoice: ";
                     cin >> sub;
+                    if (cin.fail()) {
+                        cin.clear();
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                        cout << "Invalid input! Please enter a number.\n";
+                        continue;
+                    }
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
                     if (sub == 1) bookSeat(loggedPhone);
-                    else if(sub==2) break;
+                    else if (sub == 2) break;
+                    else cout << "Invalid choice!\n";
                 } while (sub != 2);
             }
         } else if (ch == 3) {
-            cout << "Bon Voyage!\n"; break;
-        } else cout << "Invalid choice!\n";
+            cout << "Bon Voyage!\n";
+            break;
+        } else {
+            cout << "Invalid choice!\n";
+        }
     }
     return 0;
 }
+
